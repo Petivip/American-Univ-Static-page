@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <title>American University static page</title>
-  
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   
   
       <link rel="stylesheet" href="css/style.css">
@@ -12,42 +13,42 @@
   
 </head>
 
-<body>
-
-  <body>
-  <head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-</head>
-  <div id="page-wrapper">
 <header id="header">
-  <div class="logo">
-    <img id="header-img" src="https://www.american.edu/ucm/images/au_logo_1.png" alt="american university logo">
-  </div>
+  <img id="header-img" src="https://www.american.edu/ucm/images/au_logo_1.png" alt="american university logo">
   <nav id="nav-bar">
     <ul>
       <li>
         <a class="nav-link" href="#courses">Courses</a>
       </li>
-        <li>
-          <a class="nav-link" href="#apply">Apply</a>
+      <li>
+         <a class="nav-link" href="#apply">Apply</a>
       </li>
-          <li>
-            <a class="nav-link" href="#tutition">Tutition</a>
-      </li>
-            <li>
-              <a class="nav-link" href="#visit">Visit</a>
+      <li>
+         <a class="nav-link" href="#tutition">Tutition</a>
+       </li>
+       <li>
+          <a class="nav-link" href="#visit">Visit Us</a>
       </li>
     </ul>
   </nav>
   </header>
   <section id="hero">
-    <h2>Search Programs and Departements</h2>
+    <h2>Log In</h2>
     <form id="form">
-      <input name="search" type="text" id="name" placeholder="Enter your search">
+      <label for="email">E-mail address:</label>
+      <input name="search" type="email" id="email" placeholder="Enter your email address"><br>
+      <label for="pass">Password:</label>
+      <input name="search" type="text" id="pass" placeholder="Enter your password"><br><br>
       <input id="submit" type="submit" class="btn">
+      <hr>
+      <p>Don't have account?<a href="#"> Sign up</a></p>
     </form>
   </section>
+ <section id="video">
+    <iframe width="420" height="300" style="margin-top:40px"
+src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+</iframe>
+    </section>
   <div class="container">
     <section id="courses">
       <div class="grid">
@@ -55,8 +56,7 @@
           <i class="fa fa-bars"></i>
         </div>
         <div class="desc">
-          <h2>SCHOOL OF
-BUSINESS</h2>
+          <h2>SCHOOL OF BUSINESS</h2>
           <p> A top-ranked, AACSB-accredited institution, the Kogod School of Business offers undergraduate degrees and graduate programs, including an MBA. Students gain real-world experience through programs grounded in experiential learning and expert faculty that prepare them to lead in all sectors of business: public, private, and nonprofit.</p>
         </div>
        </div>
@@ -65,8 +65,7 @@ BUSINESS</h2>
           <i class="fa fa-book"></i>
         </div>
         <div class="desc">
-          <h2>SCHOOL OF
-EDUCATION</h2>
+          <h2>SCHOOL OF EDUCATION</h2>
           <p> The largest school at American University, the College of Arts and Sciences features more than 100 degree programs that span the arts, humanities, sciences, and social sciences. Our diverse, scholarly community offers outstanding opportunities for hands-on interdisciplinary research, internships, and creative expression.</p>
         </div>
        </div>
@@ -75,16 +74,13 @@ EDUCATION</h2>
           <i class="fa fa-car"></i>
         </div>
         <div class="desc">
-          <h2>COLLEGE OF
-            ARTS & SCIENCES</a></h2>
+          <h2>COLLEGE OF ARTS & SCIENCES</a></h2>
           <p> With a vibrant community and passion for change, the School of Education is dedicated to creating and ensuring excellent learning experiences for every child. Through cutting-edge research, innovative outreach programs, and the development of inspiring coursework, students address the most challenging issues in the field.</p>
         </div>
        </div>
     </section>
     
-    <section id="apply">
-     <iframe height="315" src="https://www.youtube.com/watch?v=pz4c_e8arlw?autoplay=0"></iframe>
-    </section>
+   
 
 <section id="tutition">
       <div id="tenor">
@@ -144,7 +140,7 @@ EDUCATION</h2>
         <footer>
            <div>
           <h3>AMERICAN UNIVERSITY</h3>
-          <p>4400 Massachusetts Avenue, NW</p>
+          <p>4400 Massachusetts Avenue,NW</p>
           <p>Washington, DC 20016</p>
           </div>
           <div>
@@ -156,10 +152,7 @@ EDUCATION</h2>
               <span>Copyright@2018, American University.</span>
               </div>
    </footer>
-         </body>
-  
-  
-
+         
 </body>
 
 </html>
